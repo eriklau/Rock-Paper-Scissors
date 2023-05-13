@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SCISSORS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>   
+    <h1 style="font-size: 70px;">ROCK PAPER SCISSORS</h1>
+    <h3 style="font-size: 24px;">First to 5 wins</h3>
+
+    <div class="container">
+        <div class="choices">
+            <div class="card-image" data-image="rock">
+                <img src="images/rock.jpg" att="Rock" class = "image" />
+            </div>
+            <div class="card-image" data-image="paper">
+                <img src="images/paper.jpg" att="Paper" class = "image" />
+            </div>
+            <div class="card-image" data-image="scissor">
+                <img src="images/scissor.png" att="Scissor" class = "image" />
+            </div>
+        </div>
+        <div style="font-size: 48px;" class="currentmessage">Begin.</div>
+
+        <div class="containerbottom">
+            <h2>SCORE:</h2>
+            <div class="score">
+                <div class="playerscore">0</div>
+                <div style="margin: 0px 50px">-</div>
+                <div class="computerscore">0</div>
+            </div>
+        </div>
+        <button class="button">PLAY AGAIN</button>
+    </div>  
+
+    <script src="script.js"></script>
+</body>
+</html>
