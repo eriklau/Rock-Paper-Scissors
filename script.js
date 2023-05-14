@@ -82,7 +82,7 @@ function game(userSelection) {
     currentmessage.textContent = result;
 
     if (playerScore == 5 && computerScore < 5) {
-        currentmessage.textContent = 'YOU BABY!';
+        currentmessage.textContent = 'YOU WIN!';
     }    
 
     else if (playerScore < 5 && computerScore == 5) {
